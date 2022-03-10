@@ -1,0 +1,29 @@
+header{
+    background: orange;
+    color: #fff;
+    border: 1em solid black;
+}
+.parrafo{
+    margin: 1em;
+    padding-right: 5em;
+    width: 8.4%;
+    background: salmon;
+}
+.inicial{
+    background: #012030;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    border-bottom: 1em solid black;
+}
+.menu{
+    margin: 1em;
+    padding-right: 5em;
+    width: 60%;
+    background: salmon;
+}
+.bajada{
+    background: yellow;
+    margin: 2em;
+
+}
