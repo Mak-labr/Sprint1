@@ -1,10 +1,10 @@
 header{
     background: orange;
     color: #fff;
-    border: 1em solid black;
+    border: 1vw solid black;
 }
 .parrafo{
-    margin: 1em;
+    margin: 1vw;
     padding-right: 5em;
     width: 8.4%;
     background: salmon;
@@ -13,7 +13,7 @@ header{
     background: #012030;
     display: flex;
     flex-wrap: wrap;
-    padding: 1em;
+    padding: 1vw;
     border-bottom: 1em solid black;
 }
 .menu{
@@ -24,6 +24,27 @@ header{
 }
 .bajada{
     background: yellow;
-    margin: 2em;
-
+    margin: 2vw;
 }
+section{
+    border: 1vw solid black;
+    margin-top: 2vw;
+    display: flex;
+}
+.columnas{
+    background: #010440;
+    width: 45%;
+    margin: 1vw;
+    display: block;
+}
+.principal{
+    background: #7275A6;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    background: red;
+    width: 30%;
+} 
+
