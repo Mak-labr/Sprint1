@@ -26,25 +26,40 @@ header{
     background: yellow;
     margin: 2vw;
 }
-section{
+.contenedor{
     border: 1vw solid black;
-    margin-top: 2vw;
+    background: #7275A6;
+    margin-top: 20px;
+}
+.principal{
+    width: 100%;
     display: flex;
+}
+.cont-colum{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
 }
 .columnas{
     background: #010440;
-    width: 45%;
-    margin: 1vw;
-    display: block;
+    width: 47%;
+    margin: 1em;
+    display: inline-block;
 }
-.principal{
-    background: #7275A6;
-    width: 100%;
+.cont-aside{
+    width:30% ;
+    background: red;
     display: flex;
     flex-wrap: wrap;
+    height: 100px;
 }
 aside{
-    background: red;
-    width: 30%;
-} 
-
+    width: 100%;
+    margin: 1em;
+    display: inline-block;
+}
+article{
+    width: 70%;
+    background: yellow;
+    margin: 1em;
+}
