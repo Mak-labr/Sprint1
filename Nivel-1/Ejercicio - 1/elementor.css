@@ -1,0 +1,31 @@
+.sec-01{
+    background: gray;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    word-wrap: break-word;
+    width: 100%;
+}
+table{
+    border: 5px solid black;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.primera_celda{
+    background: #010440;
+    width: 40%;
+    margin: 1em;
+    display: inline-block;
+}
+.cont-sidebar{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.sidebar{
+    display: inline-block;
+    width: 30%;
+    background: red;
+    margin: 1em;
+}

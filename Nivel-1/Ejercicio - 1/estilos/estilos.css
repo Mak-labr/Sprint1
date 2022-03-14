@@ -26,40 +26,29 @@ header{
     background: yellow;
     margin: 2vw;
 }
-.contenedor{
-    border: 1vw solid black;
-    background: #7275A6;
-    margin-top: 20px;
+section{
+    border: 1em solid black;
+    margin-top: 1em;
 }
-.principal{
-    width: 100%;
+.flex-container{
     display: flex;
-}
-.cont-colum{
-    display: flex;
-    width: 80%;
     flex-wrap: wrap;
+    background:#012030;
+    width: 70%;
 }
 .columnas{
-    background: #010440;
-    width: 47%;
+    background: #fff;
+    flex-direction: row;
+    width: 46%;
     margin: 1em;
-    display: inline-block;
 }
-.cont-aside{
-    width:30% ;
+.cont-abajo{
+    background: #fff;
+    width: 95%;
+    margin: 1em;
+}
+.aside{
     background: red;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100px;
-}
-aside{
-    width: 100%;
-    margin: 1em;
-    display: inline-block;
-}
-article{
-    width: 70%;
-    background: yellow;
-    margin: 1em;
+    width: 30%;
+    -ms-flex-align: end;
 }
