@@ -3,6 +3,11 @@ header{
     color: #fff;
     border: 1vw solid black;
 }
+footer{
+    border: 1em solid black;
+    background: yellow;
+    margin-top: 1em;
+}
 .parrafo{
     margin: 1vw;
     padding-right: 5em;
@@ -58,8 +63,8 @@ section{
     background: red;
     width: 29%;
     margin-left: 70%;
-    margin-top: -160px;
-    padding-bottom: 7px;
+    margin-top: -159px;
+    padding-bottom: 6px;
     border-left: 1em solid black;
 }
 .aside{
