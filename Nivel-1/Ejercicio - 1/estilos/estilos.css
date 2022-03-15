@@ -33,33 +33,52 @@ section{
 .flex-container{
     display: flex;
     flex-wrap: wrap;
-    background:#012030;
+    background:#9eb5c0;
     width: 70%;
 }
 .columnas{
-    background: #fff;
+    background: rgba(49, 58, 83, 0.959);
+    color:rgba(49, 58, 83, 0.959);
     flex-direction: row;
     width: 46%;
     margin: 1em;
+    padding-top: 0.5em;
 }
 .cont-abajo{
-    background: #fff;
+    background: rgb(117, 139, 211);
+    color: rgb(117, 139, 211);;
     width: 95%;
     margin: 1em;
     
 }
 .flex-aside{
     display: flex;
+    flex-wrap: wrap;
     background: red;
     width: 29%;
     margin-left: 70%;
-    margin-top: -170px;
-    padding-top: 9.5em;
+    margin-top: -186px;
+    padding-top: 11.5em;
     border-left: 1em solid black;
     
 }
 .aside{
     background: yellow;
-    width: 30%;
-    padding-top: -15em;
+    color: yellow;
+    width: 100%;
+    text-align: center;
+    margin-top: -170px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 140px;
+}
+.aside-2{
+    background: yellow;
+    color: yellow;
+    width: 100%;
+    text-align: center;
+    margin-top: -130px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 105px;
 }
