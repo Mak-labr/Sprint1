@@ -46,9 +46,20 @@ section{
     background: #fff;
     width: 95%;
     margin: 1em;
+    
+}
+.flex-aside{
+    display: flex;
+    background: red;
+    width: 29%;
+    margin-left: 70%;
+    margin-top: -170px;
+    padding-top: 9.5em;
+    border-left: 1em solid black;
+    
 }
 .aside{
-    background: red;
+    background: yellow;
     width: 30%;
-    -ms-flex-align: end;
+    padding-top: -15em;
 }
