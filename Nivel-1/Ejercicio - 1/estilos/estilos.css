@@ -1,89 +1,94 @@
-header{
-    background: orange;
-    color: #fff;
-    border: 1vw solid black;
+html{
+    max-width: 1200px;
 }
-footer{
-    border: 1em solid black;
-    background: yellow;
-    margin-top: 1em;
-}
-.parrafo{
-    margin: 1vw;
-    padding-right: 5em;
-    width: 8.4%;
-    background: salmon;
-}
-.inicial{
-    background: #012030;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 1vw;
-    border-bottom: 1em solid black;
-}
-.menu{
-    margin: 1em;
-    padding-right: 5em;
-    width: 60%;
-    background: salmon;
-}
-.bajada{
-    background: yellow;
-    margin: 2vw;
-}
-section{
-    border: 1em solid black;
-    margin-top: 1em;
-}
-.flex-container{
-    display: flex;
-    flex-wrap: wrap;
-    background:#9eb5c0;
-    width: 70%;
-}
-.columnas{
-    background: rgba(49, 58, 83, 0.959);
-    color:rgba(49, 58, 83, 0.959);
-    flex-direction: row;
-    width: 46%;
-    margin-top: 16px;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-bottom: 10px;
-}
-.cont-abajo{
-    background: rgb(117, 139, 211);
-    color: rgb(117, 139, 211);;
-    width: 95%;
-    margin: 1em;
-}
-.flex-aside{
-    display: flex;
-    flex-wrap: wrap;
-    background: red;
-    width: 29%;
-    margin-left: 70%;
-    margin-top: -159px;
-    padding-bottom: 6px;
-    border-left: 1em solid black;
-}
-.aside{
-    background: yellow;
-    color: yellow;
-    width: 100%;
-    text-align: center;
-    margin-top: 15px;
-    margin-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 120px;
-}
-.aside-2{
-    background: yellow;
-    color: yellow;
-    width: 100%;
-    text-align: center;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-top: -100px;
-    margin-bottom: 80px;
-}
+
+    header{
+         background: orange;
+         color: #fff;
+         border: 1vw solid black;
+    }
+    footer{
+         border: 1em solid black;
+         background: yellow;
+         margin-top: 1em;
+    }
+
+    .parrafo{
+         margin: 1em;
+         padding-right: 5px;
+         width: 11%;
+         background: salmon;
+    }
+    .inicial{
+         background: #012030;
+         display: flex;
+         flex-wrap: wrap;
+         padding: 1vw;
+         border-bottom: 1em solid black;
+    }
+    .menu{
+         margin: 1em;
+         padding-right: 6em;
+         width: 60%;
+         background: salmon;
+    }
+    .bajada{
+         background: yellow;
+         margin: 2vw;
+    }
+    section{
+         border: 1em solid black;
+         margin-top: 1em;
+    }
+    .flex-container{
+         display: flex;
+         flex-wrap: wrap;
+         background:#9eb5c0;
+         width: 70%;
+    }
+    .columnas{
+         background: rgba(49, 58, 83, 0.959);
+         color:rgba(49, 58, 83, 0.959);
+         flex-direction: row;
+         width: 46%;
+         margin-top: 16px;
+         margin-left: 16px;
+         margin-right: 16px;
+         margin-bottom: 10px;
+    }
+    .cont-abajo{
+         background: rgb(117, 139, 211);
+         color: rgb(117, 139, 211);;
+         width: 95%;
+         margin: 1em;
+    }
+    .flex-aside{
+         display: flex;
+         flex-wrap: wrap;
+         background: red;
+         width: 29%;
+         margin-left: 70%;
+         margin-top: -159px;
+         padding-bottom: 6px;
+         border-left: 1em solid black;
+    }
+    .aside{
+         background: yellow;
+         color: yellow;
+         width: 100%;
+         text-align: center;
+         margin-top: 15px;
+         margin-left: 1em;
+         margin-right: 1em;
+         margin-bottom: 120px;
+    }
+    .aside-2{
+         background: yellow;
+         color: yellow;
+         width: 100%;
+         text-align: center;
+         margin-left: 16px;
+         margin-right: 16px;
+         margin-top: -100px;
+         margin-bottom: 80px;
+    }
