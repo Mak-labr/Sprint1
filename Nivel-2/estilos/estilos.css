@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.padre{
+    display: flex;
+
+}
+    .header{
+        background: url(imagenes\header.jpg);
+    }
+    .seccion{
+        background: #000;
+    }
+    .footer{
+        background: #000;
+    }
