@@ -1,5 +1,4 @@
 *{
-    max-width: 1200px;
     margin: 10px;
     padding: 10px;
     /*para que no se desborden las cajas*/
@@ -68,3 +67,10 @@
         .pie{
             background: #e6af2e;
         }
+@media all and (max-width: 768px){
+    .section{
+        background: #feff03;
+        flex-direction: column;
+    }
+}
+

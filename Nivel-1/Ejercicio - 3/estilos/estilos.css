@@ -1,5 +1,4 @@
 *{
-    max-width: 1200px;
     margin: 10px;
     padding: 10px;
     /*para que no se desborden las cajas*/
@@ -68,3 +67,37 @@
         .pie{
             background: #e6af2e;
         }
+@media all and (max-width: 768px){
+    .section{
+        background: #feff03;
+        flex-direction: column;
+    }
+}
+@media all and (max-width: 480px){
+        .menu{
+            flex-direction: column;
+        }
+    .section{
+        background: #feff03;
+        flex-direction: column;
+    }
+        .articulos{
+            background: #09506f;
+            flex-direction: column;
+        }
+            article{
+                background: #61959c;
+            }
+            .navegacion{
+                background: #a3ddcb;
+            }
+        .aside{
+            background: #fd7b54;
+        }
+            .publicidad{
+                background: #fdb36b;
+            }
+            .pie{
+                background: #fdc764 ;
+            }
+}
