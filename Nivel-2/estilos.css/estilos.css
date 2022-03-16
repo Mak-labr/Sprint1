@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+}
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+    .header{
+        background: black;
+    }
+    .section{
+        background: black;
+    }
+    .footer{
+        background: black;
+    }
