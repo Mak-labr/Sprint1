@@ -1,5 +1,5 @@
 *{
-    margin: 10px;
+    margin: 10px 0px 10px 0px;
     padding: 10px;
     /*para que no se desborden las cajas*/
     box-sizing: border-box;
@@ -37,29 +37,25 @@
                     color: gray;
                     margin-right: 2.5em;
                 }
-                .iconos{
-                    margin-bottom: -15px;
-                    margin-right: -5px;
-                    width: 40px;
-                    height: 40px;
-                    flex: 1 1 auto;
-                    filter: opacity(0.5);
-                }
 
             .social{
                 flex: 1 1 auto;
+                display: flex;
+                margin-top: -10px;
             }
+                .social a{
+                    color: gray;
+                    margin-right: -60px;
+                    filter: opacity(0.5);
+                }
                 .face{
                     width: 40px;
                     height: 40px;
-                    margin-right: -60px;
-                    filter: opacity(0.5);
+
                 }
                 .twitter{
                     width: 40px;
                     height: 40px;
-                    margin-right: -30px;
-                    filter: opacity(0.5);
                 }
         .texto-principal{
             background: rgba(216, 216, 216, 0.479);
@@ -82,17 +78,13 @@
             flex: 2 1 auto;
             display: flex;
             flex-flow: row wrap;
-            margin-top: -15px;
-            margin-left: -18px;
-
         }
             .article{
                 background: #f5f1f1;
-                flex: 1 1 40%;
+                flex: 1 1 45%;
              }
                 .article img{
-                    width: 510px;
-                    height: 300px;
+                    width: 100%;
                     margin-top: -10px;
                     margin-left: -5px;
                 }
@@ -106,7 +98,7 @@
                     background: #f08080;
                     color: #faf1e9;
                     margin-left: 3px;
-                    margin-right: 20px;
+                    margin-right: 12px;
                 }
                 .resumen{
                     display: flex;
@@ -128,14 +120,12 @@
         .aside{
             background: #d8d7d7;
             flex: 1 1 auto;
-            margin-left: 10px;
-            margin-top: -15px;
             width: 100%;
         }
             .titulo{
                 background:#d8d7d7 ;
                 color: #000;
-                font-style: 500;
+                font-style: 24px;
             }
             .text-aside{
                 color: #000;
@@ -146,7 +136,7 @@
     }
         .pie{
             background: #ece5e5;
-            margin: 0 5px 0 5px;
+            margin: -10px 5px -10px 5px;
             text-align: center;
         }
         @media all and (max-width: 768px){
